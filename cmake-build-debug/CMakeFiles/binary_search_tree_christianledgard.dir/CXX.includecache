@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/bstree.h
+node.h
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/node.h
+iterator.h
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/iterator.h
+
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/iterator.h
+stack
+-
+node.h
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/node.h
+
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/main.cpp
+iostream
+-
+tester/tester.h
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/tester/tester.h
+
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/mocker/mocker.h
+random
+-
+type_traits
+-
+
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/node.h
+
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/tester/tester.h
+stdexcept
+-
+iostream
+-
+assert.h
+-
+vector
+-
+algorithm
+-
+../mocker/mocker.h
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/mocker/mocker.h
+../bstree.h
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/binary-search-tree-christianledgard/bstree.h
+

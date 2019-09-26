@@ -12,7 +12,10 @@ class Node {
     T data;
     Node<T> *left;
     Node<T> *right;
+public:
+    Node(T data);
 
+private:
     template<class>
     friend class BSTree; 
 
