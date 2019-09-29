@@ -8,7 +8,8 @@ int main(int argc, char *argv[]) {
     cout << "Binary Search Tree Practice" << endl;
     cout << "===========================================================" << endl << endl;
 
-    auto tree = new BSTree<int>();
+    Tester::execute();
+    /*auto tree = new BSTree<int>();
 
     int nums[] = {45,25,15,35,75};
 
@@ -28,7 +29,7 @@ int main(int argc, char *argv[]) {
     tree->traversePostOrder(tree->getRoot());
 
     cout << endl << "Tree Size: " << tree->size() << endl;
-    cout << "Tree Height: " << tree->height();
+    cout << "Tree Height: " << tree->height();*/
 
     return EXIT_SUCCESS;
 }

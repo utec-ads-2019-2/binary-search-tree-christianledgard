@@ -46,6 +46,8 @@ class Iterator {
             } else{
                 current = stack.top();
             }
+
+            // No estás retornando el iterador
         }
 
         Iterator<T>& operator--() {
@@ -53,6 +55,7 @@ class Iterator {
         }
 
         T operator*() {
+            // Tienes que controlar el caso null con throw
             if (current) return current->data;
         }
 };

@@ -26,7 +26,9 @@ class BSTree {
             return false;
         }
 
+        // Debería ser privado
         Node<T> * newNode(T data){
+            // Falta definir como null los punteros hijos
             auto * newNode = new Node<T>(data);
             treeSize++;
             return newNode;
@@ -84,6 +86,8 @@ class BSTree {
             return removeNodeRecursive(root, data);
         }
 
+        // Debería ser privado
+        // Está dando exception
         bool removeNodeRecursive(Node<T> * &root , T data) {
             Node<T> * current = root;
             Node<T> * parent = nullptr;
@@ -178,6 +182,7 @@ class BSTree {
             return this->root;
         }
         ~BSTree() {
+            // Dónde está implementado el kill self?
             root->killSelf();
         }
 };
